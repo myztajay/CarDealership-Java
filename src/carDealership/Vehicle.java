@@ -2,10 +2,14 @@ package carDealership;
 
 public class Vehicle {
 	double price;
+	String name;
 
-	public Vehicle(double price) {
-		super();
-		this.price = price;
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public double getPrice() {
