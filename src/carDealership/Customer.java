@@ -40,7 +40,7 @@ public class Customer {
 	}
 
 	public void purchaseCar(Vehicle vehicle, Employee emp, boolean finance) {
-		
+		System.out.println("my name is " + name + "and I am looking to buy this " + vehicle + ".");
+		emp.handleCustomer(this, finance, vehicle);
 	}
-
 }
