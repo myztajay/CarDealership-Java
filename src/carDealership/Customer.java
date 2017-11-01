@@ -5,6 +5,15 @@ public class Customer {
 	private String name;
 	private String address;
 	private int cash;
+	private int credit;
+
+	public int getCredit() {
+		return credit;
+	}
+
+	public void setCredit(int credit) {
+		this.credit = credit;
+	}
 
 	public String getName() {
 		return name;
